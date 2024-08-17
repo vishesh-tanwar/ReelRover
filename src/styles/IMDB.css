@@ -1,0 +1,35 @@
+.movie-list{
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+    
+}
+
+.movie-card{
+    width: 200px;
+
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 100%; 
+}
+
+.movie-card img {
+    width: 100%;
+}
+
+
+.heading{
+    font-family: cursive; 
+    margin:15px 15px 5px 15px ;
+}
+
+.navbar-wrapper{
+    height: 60px;
+    width: 100%;
+    display: flex; 
+    background-color: gold;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 15px;
+}
