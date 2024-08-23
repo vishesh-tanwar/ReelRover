@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MovieDetail from "./MovieDetail";
 import AddMovie from "./AddMovie";
 import Navbar from "./Navbar";
+import MovieFavourite from "./MovieFavourites";
 
 const ImdbApp = () => {
   return (
@@ -23,6 +24,7 @@ const ImdbApp = () => {
           /> 
           <Route path="/Movie-Detail/:MovieId" element={<MovieDetail />} />
           <Route path="/Add-Movie" element={<AddMovie />} />
+          <Route path="/favourites" element={<MovieFavourite />} />
         </Routes>
       </div>
     </Router>

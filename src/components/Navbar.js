@@ -6,6 +6,7 @@ const Navbar = () => {
       <div className="navbar-wrapper">
         <Link to="/">Movie List</Link> 
         <Link to="/Add-Movie">Add Movie</Link>
+        <Link to="/favourites">WatchList</Link> 
       </div>
     </>
   );

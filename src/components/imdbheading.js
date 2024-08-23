@@ -2,7 +2,7 @@ const Imdbheading = () => {
     return (
         <div>
             <h1 className="heading">
-                Top 10 on Imdb 
+                International Popular Movies 
             </h1>
         </div>
     )
