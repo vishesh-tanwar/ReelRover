@@ -56,12 +56,13 @@
 
 .favourite-wrapper .left-section {
     flex-basis: 30%;
-    background-color: beige;
+    justify-content: flex-end; 
+    display: flex;
 }
 
 .favourite-wrapper .right-section {
     flex: 1;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 
 .favourite-wrapper .right-section table {
@@ -85,4 +86,21 @@
 
 .favourite-wrapper .right-section table td .deleteBtn:hover {
     background-color: rgb(195, 194, 194); 
+}
+
+.genre-wrapper {
+    display: flex;
+    flex-direction: column;  /* Ensures that genres are stacked vertically */
+    border: 1px solid black; 
+    padding: 15px; 
+    width: 200px;
+}
+
+.genre-wrapper .genre { 
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 15px; 
+    margin: 1px 0; /* Adjust margin to stack genres vertically */
 }
