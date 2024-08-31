@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar-wrapper">
-        <Link to="/">Movie List</Link> 
-        <Link to="/Add-Movie">Add Movie</Link>
-        <Link to="/favourites">WatchList</Link> 
+        <Link to="/" className="links">Movie List</Link> 
+        {/* <Link to="/Add-Movie" className="links">Add Movie</Link> */}
+        <Link to="/favourites"className="links">WatchList</Link> 
       </div>
     </>
   );

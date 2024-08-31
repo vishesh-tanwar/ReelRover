@@ -1,6 +1,6 @@
 const Imdbheading = () => {
     return (
-        <div>
+        <div style={{backgroundColor:"black"}}>
             <h1 className="heading">
                 International Popular Movies 
             </h1>
